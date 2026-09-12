@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Art — Iwona Drabicka</title>
+<meta name="description" content="Paintings by Iwona Drabicka — structural and acrylic work.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Karla:wght@400;500;700&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: #F7EFE2; color: #332B22; font-family: "Karla", -apple-system, sans-serif; }
+  img { max-width: 100%; }
+  a { color: #B5502E; text-decoration: none; border-bottom: 1px solid rgba(181,80,46,0.35); }
+  a:hover { color: #8A3C21; }
+  .serif { font-family: "Lora", Georgia, serif; }
+  .label {
+    font-family: "Karla", sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #8C7B63;
+  }
+  .accent { color: #B5502E; }
+  .rule-group { display: flex; flex-direction: column; gap: 6px; }
+  .rule-full { height: 1px; background: #E6D8C1; width: 100%; }
+  .rule-mid { height: 1px; background: #E6D8C1; width: 56px; }
+  .rule-tick { height: 2px; background: #B5502E; width: 22px; }
+
+  .root { max-width: 1440px; margin: 0 auto; padding: 0 80px; }
+  .row { display: flex; }
+
+  /* Placeholder art frame */
+  .ph-frame { position: relative; width: 100%; height: 100%; overflow: hidden; background: #e9e4da; border-radius: 2px; }
+  .ph-frame svg { display: block; width: 100%; height: 100%; }
+  .ph-tag {
+    position: absolute; left: 10px; bottom: 10px;
+    display: flex; align-items: center; gap: 5px;
+    padding: 4px 8px 4px 6px; background: rgba(20, 18, 16, 0.62);
+    border-radius: 3px; backdrop-filter: blur(2px);
+  }
+  .ph-tag span {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 9px; letter-spacing: 0.09em; text-transform: uppercase;
+    color: #F4F0E8; line-height: 1; white-space: nowrap;
+  }
+
+  .piece-grid { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 32px; }
+  .piece-grid.wide { gap: 48px; }
+  .piece-img { width: 100%; aspect-ratio: 4/5; }
+
+  @media (max-width: 900px) {
+    .root { padding: 0 28px; }
+    .hero-row { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .piece-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+    .hero-headline { font-size: 30px !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="root">
+
+  <!-- Nav -->
+  <div style="display:flex; align-items:center; justify-content:space-between; padding: 36px 0;">
+    <div class="serif" style="font-size: 22px; font-style: italic;">Iwona Drabicka <span class="accent">Art Studio</span></div>
+    <div style="display:flex; gap:32px; flex-wrap:wrap;">
+      <a href="#structural" class="label" style="border:none; color:#332B22;">Structural</a>
+      <a href="#acrylic" class="label" style="border:none; color:#332B22;">Acrylic</a>
+      <a href="#" class="label" style="border:none; color:#332B22;">Contact</a>
+    </div>
+  </div>
+
+  <div class="rule-group"><div class="rule-full"></div><div class="rule-mid"></div><div class="rule-tick"></div></div>
+
+  <!-- Hero -->
+  <div class="row hero-row" style="display:grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; padding: 40px 0 96px 0; align-items:start;">
+    <div>
+      <div class="label" style="margin-bottom: 18px;">Art</div>
+      <div class="serif hero-headline" style="font-size: 42px; line-height: 1.3; font-weight: 500;">
+        Some paintings feel like places.<br>Others feel like <span class="accent" style="font-style: italic;">a memory</span> of one.
+      </div>
+      <div style="margin-top: 26px; font-size: 16px; line-height: 1.8; color: #4E4436;">
+        Between structure and nature, between the immediate and the slow, these
+        paintings explore different ways of seeing and feeling.
+      </div>
+      <div style="margin-top: 22px; font-size: 16px; line-height: 1.8; color: #4E4436;">
+        One technique asks me to act in the moment. The material dries quickly,
+        leaving little room for hesitation or correction. What happens on the
+        canvas becomes a record of that particular moment — instinctive,
+        immediate and impossible to fully repeat.
+      </div>
+      <div style="margin-top: 22px; font-size: 16px; line-height: 1.8; color: #4E4436;">
+        The other unfolds much more slowly. A painting can take days or weeks,
+        growing layer by layer. It becomes a conversation between colours,
+        ideas and the image I carry in my mind — a process of looking,
+        changing, waiting and discovering what I want to bring onto the canvas.
+      </div>
+      <div style="margin-top: 30px; font-size: 16px; line-height: 1.8; color: #4E4436;">
+        Take your time.<br>
+        Look for what draws you in.<br>
+        Perhaps you will find something familiar — a place, a season, a feeling you once knew.
+      </div>
+      <div class="serif" style="font-size: 19px; font-style: italic; margin-top: 18px; color:#332B22;">
+        Stay with the paintings that speak to you.
+      </div>
+      <div style="margin-top: 32px; display:flex; gap: 28px;">
+        <a href="#structural">See the structural work →</a>
+        <a href="#acrylic">See the acrylic work →</a>
+      </div>
+    </div>
+    <div style="position:relative;">
+      <div style="width:100%; aspect-ratio: 5/6; border-radius: 3px; overflow:hidden; box-shadow: 0 24px 48px -20px rgba(80,50,20,0.35);">
+        <div class="ph-frame">
+          <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+            <defs><linearGradient id="hg6" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#E8B26A"/><stop offset="0.55" stop-color="#C97A4A"/><stop offset="1" stop-color="#274A34"/>
+            </linearGradient></defs>
+            <rect width="400" height="480" fill="url(#hg6)"/>
+            <polygon points="30,480 140,220 250,480" fill="#1F3B2A" opacity="0.85"/>
+            <polygon points="180,480 300,180 400,480" fill="#16301F" opacity="0.85"/>
+            <circle cx="300" cy="120" r="46" fill="#F6D9A0" opacity="0.9"/>
+          </svg>
+          <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+        </div>
+      </div>
+      <div class="label" style="margin-top: 14px; color: #A6957B;">From the studio wall, this week</div>
+    </div>
+  </div>
+
+  <!-- Structural section -->
+  <div id="structural" style="padding: 56px 0 24px 0;">
+    <div class="rule-group" style="margin-bottom: 40px;"><div class="rule-full"></div><div class="rule-mid"></div><div class="rule-tick"></div></div>
+    <div style="margin-bottom: 48px;">
+      <div class="serif" style="font-size: 34px; font-weight: 500;">Structural paintings</div>
+    </div>
+
+    <!-- Arches -->
+    <div style="margin-bottom: 56px;">
+      <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:20px;">
+        <div class="serif" style="font-size: 20px; font-style: italic;">Arches</div>
+        <div style="flex:1; height:1px; background:#E6D8C1;"></div>
+        <div class="label">2 pieces</div>
+      </div>
+      <div class="piece-grid">
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFE7D8"/><stop offset="1" stop-color="#D9CDB6"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g1)"/>
+                <rect x="60" y="230" width="80" height="200" fill="#C9BA9C"/>
+                <path d="M60 230 a40 60 0 0 1 80 0 z" fill="#C9BA9C"/>
+                <rect x="170" y="150" width="110" height="280" fill="#B9A886" opacity="0.9"/>
+                <path d="M170 150 a55 85 0 0 1 110 0 z" fill="#B9A886" opacity="0.9"/>
+                <rect x="300" y="260" width="70" height="170" fill="#A6926C"/>
+                <path d="M300 260 a35 55 0 0 1 70 0 z" fill="#A6926C"/>
+                <rect x="0" y="430" width="400" height="50" fill="#8C7A58" opacity="0.5"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Cathedral Light</div>
+          <div class="label" style="margin-top:2px;">72 × 90 cm — plaster relief</div>
+        </div>
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7D9CB"/><stop offset="1" stop-color="#C2A48C"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g2)"/>
+                <rect x="110" y="120" width="180" height="360" fill="#9C7A5C" opacity="0.85"/>
+                <path d="M110 120 a90 130 0 0 1 180 0 z" fill="#9C7A5C" opacity="0.85"/>
+                <rect x="150" y="180" width="100" height="300" fill="#F1E7DA"/>
+                <path d="M150 180 a50 70 0 0 1 100 0 z" fill="#F1E7DA"/>
+                <line x1="0" y1="460" x2="400" y2="460" stroke="#7A5C42" stroke-width="3" opacity="0.6"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Threshold No. 3</div>
+          <div class="label" style="margin-top:2px;">60 × 80 cm — plaster relief</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nature -->
+    <div style="margin-bottom: 16px;">
+      <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:20px;">
+        <div class="serif" style="font-size: 20px; font-style: italic;">Nature</div>
+        <div style="flex:1; height:1px; background:#E6D8C1;"></div>
+        <div class="label">2 pieces</div>
+      </div>
+      <div class="piece-grid">
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DED6BF"/><stop offset="1" stop-color="#B7AE8C"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g3)"/>
+                <path d="M60 40 C 120 140, 90 240, 160 300 C 210 340, 190 420, 240 470" stroke="#5F5A3D" stroke-width="10" fill="none" opacity="0.7"/>
+                <path d="M150 20 C 180 120, 260 160, 250 260 C 245 340, 320 380, 330 460" stroke="#77693F" stroke-width="7" fill="none" opacity="0.6"/>
+                <path d="M40 300 C 100 320, 130 400, 210 430" stroke="#8B7A4A" stroke-width="5" fill="none" opacity="0.55"/>
+                <circle cx="160" cy="300" r="10" fill="#4C4630"/>
+                <circle cx="250" cy="260" r="7" fill="#4C4630"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Rootbound</div>
+          <div class="label" style="margin-top:2px;">65 × 85 cm — plaster relief</div>
+        </div>
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><radialGradient id="g4" cx="0.4" cy="0.35" r="0.9"><stop offset="0" stop-color="#D9DCC7"/><stop offset="1" stop-color="#A9AE87"/></radialGradient></defs>
+                <rect width="400" height="480" fill="url(#g4)"/>
+                <ellipse cx="150" cy="200" rx="120" ry="90" fill="#8E9268" opacity="0.65"/>
+                <ellipse cx="260" cy="300" rx="100" ry="130" fill="#B7A97E" opacity="0.6"/>
+                <ellipse cx="120" cy="360" rx="90" ry="60" fill="#6F7350" opacity="0.55"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Weathered Hollow</div>
+          <div class="label" style="margin-top:2px;">50 × 70 cm — plaster relief</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Acrylic section -->
+  <div id="acrylic" style="padding: 56px 0 24px 0;">
+    <div class="rule-group" style="margin-bottom: 48px;"><div class="rule-full"></div><div class="rule-mid"></div><div class="rule-tick"></div></div>
+    <div style="margin-bottom: 64px;">
+      <div class="serif" style="font-size: 34px; font-weight: 500;">Acrylic paintings</div>
+    </div>
+
+    <!-- Forest -->
+    <div style="margin-bottom: 72px;">
+      <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:28px;">
+        <div class="serif" style="font-size: 20px; font-style: italic;">Forest</div>
+        <div style="flex:1; height:1px; background:#E6D8C1;"></div>
+        <div class="label">2 pieces</div>
+      </div>
+      <div class="piece-grid wide">
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3C5B44"/><stop offset="1" stop-color="#1E3324"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g5)"/>
+                <polygon points="60,480 120,260 180,480" fill="#4E7856" opacity="0.9"/>
+                <polygon points="140,480 210,190 280,480" fill="#5D8A63" opacity="0.9"/>
+                <polygon points="230,480 300,240 370,480" fill="#3F6249" opacity="0.9"/>
+                <rect x="105" y="440" width="12" height="40" fill="#2A3C24"/>
+                <rect x="265" y="440" width="12" height="40" fill="#2A3C24"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Understory</div>
+          <div class="label" style="margin-top:2px;">80 × 100 cm — acrylic on canvas</div>
+        </div>
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8B26A"/><stop offset="0.55" stop-color="#C97A4A"/><stop offset="1" stop-color="#274A34"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g6)"/>
+                <polygon points="30,480 140,220 250,480" fill="#1F3B2A" opacity="0.85"/>
+                <polygon points="180,480 300,180 400,480" fill="#16301F" opacity="0.85"/>
+                <circle cx="300" cy="120" r="46" fill="#F6D9A0" opacity="0.9"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Late Pine Light</div>
+          <div class="label" style="margin-top:2px;">60 × 60 cm — acrylic on canvas</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- City -->
+    <div style="margin-bottom: 24px;">
+      <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:28px;">
+        <div class="serif" style="font-size: 20px; font-style: italic;">City</div>
+        <div style="flex:1; height:1px; background:#E6D8C1;"></div>
+        <div class="label">2 pieces</div>
+      </div>
+      <div class="piece-grid wide">
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C7D0D6"/><stop offset="1" stop-color="#8D9BA6"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g7)"/>
+                <rect x="30" y="180" width="70" height="300" fill="#5B6B78"/>
+                <rect x="115" y="110" width="90" height="370" fill="#3F4E5A"/>
+                <rect x="220" y="230" width="60" height="250" fill="#6B7A85"/>
+                <rect x="295" y="60" width="80" height="420" fill="#29343D"/>
+                <line x1="0" y1="70" x2="400" y2="180" stroke="#DCE3E7" stroke-width="3" opacity="0.5"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Corner of 5th</div>
+          <div class="label" style="margin-top:2px;">70 × 90 cm — acrylic on canvas</div>
+        </div>
+        <div>
+          <div class="piece-img">
+            <div class="ph-frame">
+              <svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice">
+                <defs><linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131B26"/><stop offset="1" stop-color="#232E3D"/></linearGradient></defs>
+                <rect width="400" height="480" fill="url(#g8)"/>
+                <rect x="40" y="60" width="120" height="360" fill="#1B2531"/>
+                <rect x="200" y="20" width="150" height="440" fill="#182230"/>
+                <rect x="55" y="50" width="14" height="18" fill="#4A5568"/><rect x="80" y="50" width="14" height="18" fill="#E9C874"/><rect x="105" y="50" width="14" height="18" fill="#4A5568"/><rect x="235" y="50" width="14" height="18" fill="#E9C874"/><rect x="260" y="50" width="14" height="18" fill="#4A5568"/><rect x="285" y="50" width="14" height="18" fill="#E9C874"/><rect x="310" y="50" width="14" height="18" fill="#E9C874"/>
+                <rect x="55" y="80" width="14" height="18" fill="#E9C874"/><rect x="80" y="80" width="14" height="18" fill="#E9C874"/><rect x="105" y="80" width="14" height="18" fill="#4A5568"/><rect x="235" y="80" width="14" height="18" fill="#4A5568"/><rect x="260" y="80" width="14" height="18" fill="#4A5568"/><rect x="285" y="80" width="14" height="18" fill="#E9C874"/><rect x="310" y="80" width="14" height="18" fill="#4A5568"/>
+                <rect x="55" y="110" width="14" height="18" fill="#E9C874"/><rect x="80" y="110" width="14" height="18" fill="#E9C874"/><rect x="105" y="110" width="14" height="18" fill="#4A5568"/><rect x="235" y="110" width="14" height="18" fill="#4A5568"/>
+                <line x1="0" y1="440" x2="400" y2="380" stroke="#E7B24A" stroke-width="2" opacity="0.5"/>
+              </svg>
+              <div class="ph-tag"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#F4F0E8" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M21 15l-5-5-9 9"/></svg><span>Placeholder — art to come</span></div>
+            </div>
+          </div>
+          <div class="serif" style="margin-top:12px; font-size:17px;">Night Grid</div>
+          <div class="label" style="margin-top:2px;">55 × 75 cm — acrylic on canvas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="rule-group"><div class="rule-full"></div><div class="rule-mid"></div><div class="rule-tick"></div></div>
+  <div style="padding: 40px 0 64px 0; display:flex; justify-content:flex-end; align-items:flex-end;">
+    <div style="display:flex; flex-direction:column; align-items:flex-end; gap:6px;">
+      <a href="mailto:iwonadrabickaappsstudio@gmail.com">iwonadrabickaappsstudio@gmail.com</a>
+      <a href="../index.html" class="serif" style="font-style: italic;">Iwona Drabicka Apps Studio</a>
+      <div class="label" style="margin-top: 4px;">© 2026 Iwona Drabicka</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
